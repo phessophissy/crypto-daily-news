@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Daily News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">₿</span>
+                <h1>Crypto Daily News</h1>
+            </div>
+            <p class="tagline">Real-time cryptocurrency news & updates</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search news...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="bitcoin">Bitcoin</button>
+                <button class="filter-btn" data-filter="ethereum">Ethereum</button>
+                <button class="filter-btn" data-filter="defi">DeFi</button>
+                <button class="filter-btn" data-filter="nft">NFT</button>
+            </div>
+            <button id="refreshBtn" class="refresh-btn">
+                <span class="refresh-icon">↻</span> Refresh
+            </button>
+        </div>
+
+        <div class="status-bar">
+            <span id="lastUpdate">Last updated: --</span>
+            <span id="articleCount">0 articles</span>
+        </div>
+
+        <main id="newsContainer">
+            <div class="loading" id="loadingSpinner">
+                <div class="spinner"></div>
+                <p>Loading latest crypto news...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Crypto Daily News | Data sourced from public APIs</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
