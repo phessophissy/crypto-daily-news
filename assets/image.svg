@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a1a"/>
+  
+  <!-- Logo hexagon centered -->
+  <g transform="translate(480, 180)">
+    <path d="M120 10 L220 65 L220 175 L120 230 L20 175 L20 65 Z" fill="none" stroke="#4a90a4" stroke-width="8"/>
+    <path d="M135 40 L55 90 L55 140 L135 190" fill="none" stroke="#7ac9b7" stroke-width="10" stroke-linecap="round"/>
+    <path d="M90 85 L90 145 L145 85 L145 145" fill="none" stroke="#e8e4d9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="600" y="480" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="bold" fill="#e8e4d9" text-anchor="middle">CRYPTO DAILY NEWS</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#888" text-anchor="middle">Real-time cryptocurrency news &amp; updates</text>
+</svg>

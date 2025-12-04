@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <rect width="390" height="844" fill="#1a1a1a"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="390" height="120" fill="#252525"/>
+  
+  <!-- Logo in header -->
+  <g transform="translate(20, 30)">
+    <path d="M30 3 L54 16.5 L54 43.5 L30 57 L6 43.5 L6 16.5 Z" fill="none" stroke="#4a90a4" stroke-width="2"/>
+    <path d="M33 10 L15 22 L15 35 L33 47" fill="none" stroke="#7ac9b7" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 20 L22 37 L36 20 L36 37" fill="none" stroke="#e8e4d9" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="90" y="55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e8e4d9">CRYPTO DAILY NEWS</text>
+  <text x="90" y="75" font-family="Arial, sans-serif" font-size="12" fill="#888">Real-time news &amp; updates</text>
+  
+  <!-- Search bar -->
+  <rect x="20" y="100" width="350" height="40" rx="8" fill="#333"/>
+  <text x="40" y="125" font-family="Arial, sans-serif" font-size="14" fill="#666">Search news...</text>
+  
+  <!-- Filter buttons -->
+  <rect x="20" y="155" width="50" height="30" rx="15" fill="#f7931a"/>
+  <text x="45" y="175" font-family="Arial, sans-serif" font-size="12" fill="#fff" text-anchor="middle">All</text>
+  <rect x="80" y="155" width="70" height="30" rx="15" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="115" y="175" font-family="Arial, sans-serif" font-size="12" fill="#888" text-anchor="middle">Bitcoin</text>
+  <rect x="160" y="155" width="80" height="30" rx="15" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="12" fill="#888" text-anchor="middle">Ethereum</text>
+  
+  <!-- News Card 1 -->
+  <rect x="20" y="210" width="350" height="180" rx="12" fill="#252525"/>
+  <rect x="20" y="210" width="350" height="100" rx="12" fill="#333"/>
+  <text x="35" y="330" font-family="Arial, sans-serif" font-size="10" fill="#f7931a">COINDESK</text>
+  <text x="35" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e8e4d9">Bitcoin Hits New All-Time High</text>
+  <text x="35" y="375" font-family="Arial, sans-serif" font-size="11" fill="#888">2 hours ago</text>
+  
+  <!-- News Card 2 -->
+  <rect x="20" y="410" width="350" height="180" rx="12" fill="#252525"/>
+  <rect x="20" y="410" width="350" height="100" rx="12" fill="#333"/>
+  <text x="35" y="530" font-family="Arial, sans-serif" font-size="10" fill="#f7931a">COINTELEGRAPH</text>
+  <text x="35" y="550" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e8e4d9">Ethereum Layer 2 Adoption Surges</text>
+  <text x="35" y="575" font-family="Arial, sans-serif" font-size="11" fill="#888">5 hours ago</text>
+  
+  <!-- News Card 3 (partial) -->
+  <rect x="20" y="610" width="350" height="180" rx="12" fill="#252525"/>
+  <rect x="20" y="610" width="350" height="100" rx="12" fill="#333"/>
+  <text x="35" y="730" font-family="Arial, sans-serif" font-size="10" fill="#f7931a">DECRYPT</text>
+  <text x="35" y="750" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e8e4d9">DeFi Total Value Locked Reaches...</text>
+</svg>

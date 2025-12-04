@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Crypto Daily News",
+    "iconUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/icon.svg",
+    "homeUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app",
+    "imageUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/image.svg",
+    "buttonTitle": "Read News",
+    "splashImageUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/splash.svg",
+    "splashBackgroundColor": "#1a1a1a",
+    "webhookUrl": ""
+  }
+}
