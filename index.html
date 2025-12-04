@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Daily News</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="apple-touch-icon" href="assets/favicon.svg">
-    
+
+    <!-- Favicon as data URI -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%233d4449'/><path d='M50 8 L88 30 L88 70 L50 92 L12 70 L12 30 Z' fill='none' stroke='%234a90a4' stroke-width='5'/><path d='M55 22 L28 42 L28 58 L55 78' fill='none' stroke='%237ac9b7' stroke-width='6' stroke-linecap='round'/><path d='M40 42 L40 62 L56 42 L56 62' fill='none' stroke='%23e8e4d9' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Crypto Daily News">
     <meta property="og:description" content="Real-time cryptocurrency news & updates from trusted sources">
     <meta property="og:image" content="https://crypto-daily-news-phessophissys-projects.vercel.app/assets/og-image.svg">
     <meta property="og:url" content="https://crypto-daily-news-phessophissys-projects.vercel.app">
     <meta property="og:type" content="website">
-    
+
     <!-- Farcaster Frame Meta Tags -->
     <meta property="fc:frame" content="vNext">
     <meta property="fc:frame:image" content="https://crypto-daily-news-phessophissys-projects.vercel.app/assets/og-image.svg">
     <meta property="fc:frame:button:1" content="Read Latest News">
     <meta property="fc:frame:button:1:action" content="link">
     <meta property="fc:frame:button:1:target" content="https://crypto-daily-news-phessophissys-projects.vercel.app">
-    
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +31,15 @@
     <div class="container">
         <header>
             <div class="logo">
-                <img src="assets/logo.svg" alt="Crypto Daily News" class="logo-image">
+                <svg class="logo-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="70" height="70">
+                    <path d="M50 5 L90 27.5 L90 72.5 L50 95 L10 72.5 L10 27.5 Z" fill="none" stroke="#4a90a4" stroke-width="5"/>
+                    <path d="M55 20 L25 40 L25 60 L55 80" fill="none" stroke="#7ac9b7" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M38 40 L38 62 L58 40 L58 62" fill="none" stroke="#e8e4d9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title">CRYPTO</span>
+                    <span class="logo-title">DAILY NEWS</span>
+                </div>
             </div>
             <p class="tagline">Real-time cryptocurrency news & updates</p>
         </header>
@@ -73,4 +80,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-

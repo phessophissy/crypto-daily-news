@@ -30,8 +30,30 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 15px;
     margin-bottom: 10px;
+}
+
+.logo-icon-svg {
+    flex-shrink: 0;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e8e4d9;
+    letter-spacing: 1px;
+}
+
+.logo-image {
+    height: 80px;
+    width: auto;
 }
 
 .logo-image {
@@ -432,4 +454,5 @@ footer {
 .skeleton-line.full {
     width: 100%;
 }
+
 
