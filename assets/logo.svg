@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ac9b7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a90a4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hexagon outer shape -->
+  <path d="M50 10 L85 30 L85 70 L50 90 L15 70 L15 30 Z" fill="none" stroke="#4a90a4" stroke-width="6"/>
+  
+  <!-- Inner C shape -->
+  <path d="M55 25 L35 38 L35 62 L55 75" fill="none" stroke="#7ac9b7" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- N letter inside -->
+  <path d="M45 45 L45 65 L55 45 L55 65" fill="none" stroke="#e8e4d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text: CRYPTO -->
+  <text x="105" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#e8e4d9">CRYPTO</text>
+  
+  <!-- Text: DAILY NEWS -->
+  <text x="105" y="90" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#e8e4d9">DAILY NEWS</text>
+</svg>

@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,10 +34,9 @@ header {
     margin-bottom: 10px;
 }
 
-.logo-icon {
-    font-size: 2.5rem;
-    color: #f7931a;
-    animation: pulse 2s infinite;
+.logo-image {
+    height: 80px;
+    width: auto;
 }
 
 @keyframes pulse {
@@ -354,9 +353,10 @@ footer {
         font-size: 1.5rem;
     }
 
-    .logo-icon {
-        font-size: 2rem;
-    }
+    .logo-image {
+    height: 80px;
+    width: auto;
+}
 
     .controls {
         flex-direction: column;
@@ -432,3 +432,4 @@ footer {
 .skeleton-line.full {
     width: 100%;
 }
+

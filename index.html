@@ -1,9 +1,28 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Daily News</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/favicon.svg">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Crypto Daily News">
+    <meta property="og:description" content="Real-time cryptocurrency news & updates from trusted sources">
+    <meta property="og:image" content="https://crypto-daily-news-phessophissys-projects.vercel.app/assets/og-image.svg">
+    <meta property="og:url" content="https://crypto-daily-news-phessophissys-projects.vercel.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Farcaster Frame Meta Tags -->
+    <meta property="fc:frame" content="vNext">
+    <meta property="fc:frame:image" content="https://crypto-daily-news-phessophissys-projects.vercel.app/assets/og-image.svg">
+    <meta property="fc:frame:button:1" content="Read Latest News">
+    <meta property="fc:frame:button:1:action" content="link">
+    <meta property="fc:frame:button:1:target" content="https://crypto-daily-news-phessophissys-projects.vercel.app">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +32,7 @@
     <div class="container">
         <header>
             <div class="logo">
-                <span class="logo-icon">₿</span>
-                <h1>Crypto Daily News</h1>
+                <img src="assets/logo.svg" alt="Crypto Daily News" class="logo-image">
             </div>
             <p class="tagline">Real-time cryptocurrency news & updates</p>
         </header>
@@ -31,7 +49,7 @@
                 <button class="filter-btn" data-filter="nft">NFT</button>
             </div>
             <button id="refreshBtn" class="refresh-btn">
-                <span class="refresh-icon">↻</span> Refresh
+                <span class="refresh-icon"></span> Refresh
             </button>
         </div>
 
@@ -48,10 +66,11 @@
         </main>
 
         <footer>
-            <p>© 2024 Crypto Daily News | Data sourced from public APIs</p>
+            <p> 2024 Crypto Daily News | Data sourced from public APIs</p>
         </footer>
     </div>
 
     <script src="app.js"></script>
 </body>
 </html>
+
