@@ -1,4 +1,4 @@
-{
+﻿{
   "accountAssociation": {
     "header": "",
     "payload": "",
@@ -7,11 +7,11 @@
   "frame": {
     "version": "1",
     "name": "Crypto Daily News",
-    "iconUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/icon.svg",
-    "homeUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app",
-    "imageUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/image.svg",
+    "iconUrl": "https://crypto-daily-news.vercel.app/assets/icon.svg",
+    "homeUrl": "https://crypto-daily-news.vercel.app",
+    "imageUrl": "https://crypto-daily-news.vercel.app/assets/image.svg",
     "buttonTitle": "Read News",
-    "splashImageUrl": "https://crypto-daily-news-phessophissys-projects.vercel.app/assets/splash.svg",
+    "splashImageUrl": "https://crypto-daily-news.vercel.app/assets/splash.svg",
     "splashBackgroundColor": "#1a1a1a",
     "webhookUrl": ""
   }
