@@ -1,24 +1,23 @@
-{
+﻿{
   "version": 2,
-  "name": "crypto-daily-news",
   "builds": [
     {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.js",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
+      "src": "/.well-known/farcaster.json",
+      "dest": "/.well-known/farcaster.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/"
     }
   ]
 }
