@@ -1,18 +1,14 @@
-﻿{
-  "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
-  },
-  "frame": {
+{
+  "miniapp": {
     "version": "1",
     "name": "Crypto Daily News",
     "iconUrl": "https://crypto-daily-news.vercel.app/assets/icon.svg",
     "homeUrl": "https://crypto-daily-news.vercel.app",
-    "imageUrl": "https://crypto-daily-news.vercel.app/assets/image.svg",
-    "buttonTitle": "Read News",
     "splashImageUrl": "https://crypto-daily-news.vercel.app/assets/splash.svg",
     "splashBackgroundColor": "#1a1a1a",
-    "webhookUrl": ""
+    "subtitle": "Real-time crypto news updates",
+    "description": "Stay updated with the latest cryptocurrency news, market trends, and insights from trusted sources.",
+    "primaryCategory": "news-media",
+    "tags": ["crypto", "news", "bitcoin", "ethereum", "defi"]
   }
 }
